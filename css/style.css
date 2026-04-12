@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #7D5B36;
+}
+
+
+.hero-img{
+    width:100%;
+    height:60vh;
+    object-fit:cover;
+    display:block;
+    border: 2px solid black;
+}
+
+.hero-section{
+    position: relative;
+}
+
+.text{
+  position: absolute;
+  top: 100px;       /* text image ke upar kitna niche hoga */
+  left: 20px;      /* left se distance */
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.text p{
+    font-size: 18px;
+    color: black;
+    font-weight: normal;
+}
+
+/*.heading-section{
+    padding: 60px;
+}*/
+
+
+/*Responsive Design*/
+@media (max-width:768px){
+
+.text{
+top:80px;
+left:20px;
+font-size:18px;
+}
+
+.text h1{
+font-size:28px;
+}
+
+}
+
